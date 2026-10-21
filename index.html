@@ -28,7 +28,7 @@ footer{max-width:960px;margin:0 auto;padding:8px 16px 40px;color:var(--mute);fon
 <body>
 <header>
   <h1>Repaso del máster</h1>
-  <p class="sub">Test de repaso por asignatura. Elige una, responde y comprueba al momento con su explicación.</p>
+  <p class="sub">Test de repaso por asignatura, más test global. Elige una, responde y comprueba al momento con su explicación.</p>
 </header>
 <main><div class="grid" id="grid"></div></main>
 <footer>Tu progreso se guarda solo en este dispositivo y navegador. Material de estudio elaborado a partir de los apuntes de cada asignatura.</footer>
@@ -42,7 +42,8 @@ const SUBJECTS=[
  {k:'07',file:'asig07.html',name:'Forense',desc:'Análisis forense digital y cadena de custodia',n:160},
  {k:'08',file:'asig08.html',name:'Ciberataques',desc:'Ciberataques y gestión de incidentes de seguridad',n:120},
  {k:'09',file:'asig09.html',name:'Criptoactivos',desc:'Criptoactivos, blockchain y fraudes cibernéticos',n:140},
- {k:'10',file:'asig10.html',name:'Hacking ético',desc:'Hacking ético y auditorías de seguridad',n:160}
+ {k:'10',file:'asig10.html',name:'Hacking ético',desc:'Hacking ético y auditorías de seguridad',n:160},
+  {k:'10',file:'test_global.html',name:'Test Global',desc:'Test de todos los temas, cambiando orden de respuestas',n:160}
 ];
 const grid=document.getElementById('grid');
 SUBJECTS.forEach(s=>{
